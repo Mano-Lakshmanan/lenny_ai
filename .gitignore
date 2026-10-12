@@ -1,0 +1,28 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+venv/
+.venv/
+**/venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases and vector index
+*.sqlite
+*.sqlite3
+*.db
+backend/chroma_db/
+
+# Podcast transcripts and agent logs
+documents/podcasts/
+agent_transcripts/
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+**/build/

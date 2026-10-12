@@ -1,0 +1,17 @@
+/* src/index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: #17452f;
+  background: #d7ebda;
+}
